@@ -21,6 +21,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   and posted the solution here. Enjoy!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://randomerrors.dev" # the base hostname & protocol for your site, e.g. http://example.com
+include:
+  - "_assets"
 # twitter_username: john
 # github_username:  jekyll
 
