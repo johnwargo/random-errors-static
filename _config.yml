@@ -23,8 +23,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://randomerrors.dev" # the base hostname & protocol for your site, e.g. http://example.com
 # Google Analytics
 google_analytics: UA-8870627-33
-# twitter_username: john
-# github_username:  jekyll
+
+# twitter_username: johnwargo
+# github_username:  johnwargo
 
 # Build settings
 markdown: kramdown
