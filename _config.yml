@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Random Development Errors
+email: john@randomerrors.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A place to log the random errors that appear when developing apps, 
+  I searched and searched, but couldn't find the solution, so I'll figure
+  it out myself and post the solution here.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://randomerrors.dev" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: john
+# github_username:  jekyll
 
 # Build settings
 markdown: kramdown
