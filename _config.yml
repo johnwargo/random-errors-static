@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Random Development Errors
-email: john@randomerrors.dev
+# email: john@randomerrors.dev
 description: >- # this means to ignore newlines until "baseurl:"
   A place to log the random errors developers encounter when writing code. For most of these, 
   I searched and searched, but couldn't find the solution, so I figured it it out myself 
