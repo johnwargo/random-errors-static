@@ -4,10 +4,7 @@
 
 The static web site for [randomerrors.dev](https://randomerrors.dev).
 
-Domain: [Google Domains](https://domains.google).
-
-Source: [Github](github.com/johnwargo/random-errors-static).
-
-Hosting: [Netlify](https://app.netlify.com/teams/john-qtz-ltk/dns/randomerrors.dev).
-
-Backdoor Access: [https://randomerrors.netlify.com/](https://randomerrors.netlify.com/).
++ Domain: [Google Domains](https://domains.google).
++ Source: [Github](github.com/johnwargo/random-errors-static).
++ Hosting: [Netlify](https://app.netlify.com/teams/john-qtz-ltk/dns/randomerrors.dev).
++ Backdoor Access: [https://randomerrors.netlify.com/](https://randomerrors.netlify.com/).
