@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Random Development Errors
+author: John M. Wargo
 # email: john@randomerrors.dev
 twitter_username: johnwargo
 github_username:  johnwargo
