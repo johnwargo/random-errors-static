@@ -3,7 +3,7 @@ layout: post
 title:  "Too many padding sections on bottom border"
 description: Describes an error I encountered when editing 9-patch files in Andrid Studio.
 date:   2019-06-04 08:40:00 -0400
-categories: jekyll update
+categories: Android
 ---
 
 While learning how to create 9-patch files for an Ionic app in Android Studio using [Creating a Dynamic/Adaptable Splash Screen for Capacitor (Android)][9-patch-link], I finished my work and kicked off a build to run the app in an emulator. During the build process, I encountered the following error:
