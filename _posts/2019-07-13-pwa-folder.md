@@ -12,11 +12,9 @@ Some of the error messages I encountered were:
 
 > property 'scope' ignored. Start url should be within scope of scope URL.
 
-
 and
 
 > No matching service worker detected. You may need to reload the page, or check that the service worker for the current page also controls...'
-
 
 It took me a while, but I finally figured it out. In the W3C [Web App Manifest](https://www.w3.org/TR/appmanifest/#navigation-scope) specification, I found the following:
 
