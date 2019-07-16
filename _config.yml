@@ -28,7 +28,7 @@ url: "https://randomerrors.dev" # the base hostname & protocol for your site, e.
 # Google Analytics
 google_analytics: UA-8870627-33
 disqus:
-  shortname: john_m_wargo
+  shortname: randomerrors-dev
 
 # Build settings
 markdown: kramdown
