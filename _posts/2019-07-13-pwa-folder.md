@@ -29,9 +29,9 @@ So, with that in mind, I made some adjustments. With the app hosted at the root 
  "start_url": "/index.html?utm_source=homescreen",
 {% endhighlight %}
 
-In this case, my service worker isn't actually caching anything, so I had to specify the `index.html` file in the `start_url` property. It wouldn't launch correctly until I did this.
+I had to specify the `index.html` file in the `start_url` property, the installed app wouldn't launch correctly until I did this.
 
-When hosting the PWA in a folder on my server, I had to do the following:
+When hosting the PWA in a folder on my server, I did the following:
 
 {% highlight json %}
   "start_url": "/myapp/index.html?utm_source=homescreen",
@@ -39,3 +39,5 @@ When hosting the PWA in a folder on my server, I had to do the following:
 {% endhighlight %}
 
 With that in place, it works great; you can see the final version on the (currently incomplete) [PWA Learn](https://pwalearn.com/tipcalc/) web site.
+
+Google's [Web Manifest documentation](https://developers.google.com/web/fundamentals/web-app-manifest/) has this type of configuration in its sample manifest file.
