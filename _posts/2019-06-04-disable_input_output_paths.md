@@ -3,6 +3,7 @@
   title: disable_input_output_paths
   tags: 
   categories: Ionic
+  comments: true
 ---
 
 I was testing an Ionic application in Xcode yesterday when I recived the following error message during the Build process:
