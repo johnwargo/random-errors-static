@@ -21,7 +21,7 @@ It took me a while, but I finally figured it out. In the W3C [Web App Manifest](
 
 > If the scope member is not present in the manifest, it defaults to the parent path of the start_url member. For example, if `start_url` is `/pages/welcome.html`, and `scope` is missing, the navigation scope will be `/pages/` on the same origin. If `start_url` is `/pages/` (the trailing slash is important!), the navigation scope will be `/pages/`.
 
-> Developers should take care, if they rely on the default behaviour, that all of the application's page URLs begin with the parent path of the start URL. To be safe, explicitly specify scope.
+> Developers should take care, if they rely on the default behavior, that all of the application's page URLs begin with the parent path of the start URL. To be safe, explicitly specify scope.
 
 So, with that in mind, I made some adjustments. With the app hosted at the root of the domain, I used the following settings in my project's web app manifest file:
 

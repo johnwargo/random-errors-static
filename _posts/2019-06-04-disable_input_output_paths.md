@@ -6,7 +6,7 @@
   comments: true
 ---
 
-I was testing an Ionic application in Xcode yesterday when I recived the following error message during the Build process:
+I was testing an Ionic application in Xcode yesterday when I received the following error message during the Build process:
 
 {% highlight text %}
 Unknown installation options: disable_input_output_paths
