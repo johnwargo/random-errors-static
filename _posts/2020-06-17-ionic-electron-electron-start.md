@@ -27,7 +27,7 @@ npm ERR! Failed at the my-app@1.0.0 electron:start script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     C:\Users\john\AppData\Roaming\npm-cache\_logs\2020-06-17T20_53_46_920Z-debug.log
+npm ERR!     C:\Users\user\AppData\Roaming\npm-cache\_logs\2020-06-17T20_53_46_920Z-debug.log
 
     at ChildProcess.exithandler (child_process.js:303:12)
     at ChildProcess.emit (events.js:315:20)
