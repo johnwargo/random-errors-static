@@ -6,7 +6,7 @@
   comments: true
 ---
 
-While testing an Ionic Electron app the other day, I opened a terminal window, navigated to the Ionid project folder, then executed the following command:
+While testing an Ionic Electron app the other day, I opened a terminal window, navigated to the Ionic project folder, then executed the following command:
 
 ```shell
 npx cap open electron
