@@ -14,7 +14,7 @@ npx cap open electron
 
 `npm` whirled and chunked for a little while, then displayed the following error:
 
-```shell
+```text
 [error] Error: Command failed: npm run electron:start
 'electron' is not recognized as an internal or external command,
 operable program or batch file.
