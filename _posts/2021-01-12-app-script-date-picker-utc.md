@@ -25,16 +25,16 @@ When I run the script in Google Calendar, it dutifully collects the input values
 
 ```json
 "formInput":{
-      "mtg_duration":"30",
-      "start_time":{
-         "minutes":0,
-         "hours":12
-      },
-      "num_entries":"5",
-      "start_date":{
-         "msSinceEpoch":1611014400000
-      }
-   },
+  "mtg_duration":"30",
+  "start_time":{
+      "minutes":0,
+      "hours":12
+  },
+  "num_entries":"5",
+  "start_date":{
+      "msSinceEpoch":1611014400000
+  }
+},
 ```
 
 So the start date value collected on the input form is represented as milliseconds since midnight. Not a problem, I'm an experienced JavaScript developer and this doesn't throw me off since I know that the JavaScript Date object has a constructor that accepts milliseconds:
