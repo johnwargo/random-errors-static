@@ -48,6 +48,8 @@ But when I looked at the output, the date object showed yesterday's date. I had 
 
 ![Current Millis Site](assets/current-millis.png)
 
+The simple solution was to add the UTC time offset to the Date object, and that transformed it to midnight (morning) my time - which is TODAY!!
+
 ```javascript
 /**
  * Get the start date. Google returns it as a UTC date object
@@ -59,6 +61,4 @@ startDate.setTime(startDate.getTime() + timeOffsetInMS);
 Logger.log("Selected Date: " + startDate.toDateString());
 ```
 
-The simple solution was to add the UTC time offset to the Date object, and that transformed it to midnight (morning) my time - which is TODAY!!
-
-This works for my current locale, it feels like it would work for other parts of the world, but I didn't test it to that level. 
+This works for my current locale, it feels like it would work for other parts of the world, but I didn't test it to that level.
