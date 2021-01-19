@@ -52,7 +52,6 @@ But when I looked at the output, the date object showed yesterday's date. I had 
 /**
  * Get the start date. Google returns it as a UTC date object
  * So we have to add the UTC Offset to it to get the current date
- * Weird, right?
  */
 var startDate = new Date(e.formInput.start_date.msSinceEpoch);
 var timeOffsetInMS = startDate.getTimezoneOffset() * 60000;
