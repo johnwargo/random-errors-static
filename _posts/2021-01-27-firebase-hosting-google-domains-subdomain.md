@@ -9,6 +9,6 @@ I'm working a lot lately in Firebase, and when trying to setup Firebase Hosting 
 
 ![Firebase Hosting Dialog]({{site.baseurl}}/assets/firebase-custom-domain-2.png)
 
-In Google Domains, I tried the trick I learned in that linked article, but it didn't work because the A record doesn't need the whole fully qualified domain name (FQDN), all it needs is the subdomain as shown in the following figure. I whacked the domain portion from the A records and it worked like a champ.
+In Google Domains, I tried the trick I learned in that linked article, but it didn't work because the A record doesn't need the whole fully qualified domain name (FQDN), all it needs is the subdomain as shown in the following figure. I whacked the domain portion from the A record and it worked like a champ.
 
 ![Google Domains Custom Resource Second]({{site.baseurl}}/assets/google-domains-custom-resources-4.png)
