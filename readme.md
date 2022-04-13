@@ -9,3 +9,8 @@ The static web site for [randomerrors.dev](https://randomerrors.dev).
 + Source: [Github](github.com/johnwargo/random-errors-static)
 + Hosting: [Netlify](https://app.netlify.com/teams/john-qtz-ltk/dns/randomerrors.dev)
 + Backdoor Access: [https://randomerrors.netlify.com/](https://randomerrors.netlify.com/)
+
+## Google Analytics
+
+Random Errors-GA4
+311016183
