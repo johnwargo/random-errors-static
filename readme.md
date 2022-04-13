@@ -12,8 +12,6 @@ The static web site for [randomerrors.dev](https://randomerrors.dev).
 
 ## Google Analytics
 
-
-
-Random Errors-GA4
-Property ID: 311016183
-Measurement ID: G-ZWB41V4FM5
+* Random Errors-GA4
+* Property ID: 311016183
+* Measurement ID: G-ZWB41V4FM5
