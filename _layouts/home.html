@@ -8,7 +8,27 @@ title: Random Development Errors
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  <p>This site is a place to document the solutions for the random problems and errors I 
+    encounter when I write code or learn new technologies. For most of the topics listed below, 
+    I created the article only after completing an extensive Internet search for a solution, 
+    but couldn't find one, before finally figuring it out myself. The site contains 
+    {{ paginator.total_posts }} articles spread across {{ paginator.total_pages }} pages;
+    this is page #{{ paginator.page }}.</p>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      << Previous </a>
+        {% else %}
+        <span class="previous">Previous</span>
+        {% endif %}
+        |
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next >></a>
+        {% else %}
+        <span class="next ">Next</span>
+        {% endif %}
+  </div>
 
   {%- if site.posts.size > 0 -%}
   <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
@@ -22,9 +42,7 @@ title: Random Development Errors
           {{ post.title | escape }}
         </a>
       </h3>
-      {%- if site.show_excerpts -%}
       {{ post.excerpt }}
-      {%- endif -%}
     </li>
     {%- endfor -%}
   </ul>
