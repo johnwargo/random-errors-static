@@ -15,3 +15,7 @@ The static web site for [randomerrors.dev](https://randomerrors.dev).
 * Random Errors-GA4
 * Property ID: 311016183
 * Measurement ID: G-ZWB41V4FM5
+
+## Notes
+
+Generating categories: https://www.feval.ca/posts/jekyll-categories/

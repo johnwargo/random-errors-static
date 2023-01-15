@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Android",
+    "count": 2
+  },
+  {
+    "category": "Electron",
+    "count": 1
+  },
+  {
+    "category": "Flutter",
+    "count": 1
+  },
+  {
+    "category": "Ionic",
+    "count": 5
+  },
+  {
+    "category": "PWA",
+    "count": 1
+  }
+]

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    {{content}}
+
+    <h2>About {{page.category}}"</h2>
+
+    <ul class="post-list">
+        {% for post in site.categories.page.category %}
+        <li>
+            <a href="">
+                <span class="post-title">
+                    {{post.title | escape }}
+                </span>
+                <br/>
+                <span class="post-meta">
+                    {{post.date | date: "%Y-%b-%-d"}} | {{post.categories | array_to_sentence_string}}
+                </span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    
+</div>
