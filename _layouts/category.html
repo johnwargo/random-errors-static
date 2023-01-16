@@ -6,9 +6,43 @@ layout: default
 
     {{content}}
 
-    <h2>About {{page.category}}</h2>
+    <h2>{{page.category}} Category</h2>
 
     <ul class="post-list">
+        {% for post in site.categories[page.category] %}
+        <li>
+            <a href="{{ post.url }}">
+                <span class="post-title">
+                    {{post.title | escape }}
+                </span>
+                <br />
+                <span class="post-meta">
+                    {{post.date | date: "%Y-%b-%-d"}} | {{post.categories | array_to_sentence_string}}
+                </span>
+            </a>
+        </li>
+        {% endfor %}       
+    </ul>
+
+    <!-- this worked, but all articles -->
+    <!-- <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">
+                <span class="post-title">
+                    {{post.title | escape }}
+                </span>
+                <br />
+                <span class="post-meta">
+                    {{post.date | date: "%Y-%b-%-d"}} | {{post.categories | array_to_sentence_string}}
+                </span>
+            </a>
+        </li>
+        {% endfor %}       
+    </ul> -->
+
+
+    <!-- <ul class="post-list">
         {% for post in site.categories.page.category %}
         <li>
             <a href="">
@@ -22,6 +56,6 @@ layout: default
             </a>
         </li>
         {% endfor %}
-    </ul>
-    
+    </ul> -->
+
 </div>
