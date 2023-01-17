@@ -12,6 +12,7 @@ The static web site for [randomerrors.dev](https://randomerrors.dev).
 
 ## Task List
 
+[] Categories page has different header style than Home
 [] Breadcrumbs on category navigation
 [] Pagination on category pages
 
