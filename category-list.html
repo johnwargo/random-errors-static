@@ -10,11 +10,11 @@ Access all of the articles for a particular category by selecting an item from t
     {% for cat in site.data.categories %}
     <li>
         {% if cat.count >1 %}
-        <h4><a href="/categories/{{ cat.category | slugify }}">{{ cat.category | replace:'-', ' ' }} ({{cat.count}}
-                Posts)</a></h4>
+        <a href="/categories/{{ cat.category | slugify }}">{{ cat.category | replace:'-', ' ' }} ({{cat.count}}
+                Posts)</a>
         {% else %}
-        <h4><a href="/categories/{{ cat.category | slugify }}">{{ cat.category | replace:'-', ' ' }} ({{cat.count}}
-                Post)</a></h4>
+        <a href="/categories/{{ cat.category | slugify }}">{{ cat.category | replace:'-', ' ' }} ({{cat.count}}
+                Post)</a>
         {% endif %}
     </li>
     {% endfor %}
