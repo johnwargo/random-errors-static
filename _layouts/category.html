@@ -6,56 +6,39 @@ layout: default
 
     {{content}}
 
-    <h2>{{page.category}} Category</h2>
+    <h1>{{page.category}} Posts</h1>
 
+    <!-- Are we processing the uncategorized ones? -->
+    {% if page.category != "Not Categorized" %}
     <ul class="post-list">
         {% for post in site.categories[page.category] %}
         <li>
             <a href="{{ post.url }}">
-                <span class="post-title">
-                    {{post.title | escape }}
-                </span>
-                <br />
-                <span class="post-meta">
-                    {{post.date | date: "%Y-%b-%-d"}} | {{post.categories | array_to_sentence_string}}
-                </span>
+                <h2>{{post.title | escape }}</h2>
             </a>
-        </li>
-        {% endfor %}       
-    </ul>
-
-    <!-- this worked, but all articles -->
-    <!-- <ul class="post-list">
-        {% for post in site.posts %}
-        <li>
-            <a href="{{ post.url }}">
-                <span class="post-title">
-                    {{post.title | escape }}
-                </span>
-                <br />
-                <span class="post-meta">
-                    {{post.date | date: "%Y-%b-%-d"}} | {{post.categories | array_to_sentence_string}}
-                </span>
-            </a>
-        </li>
-        {% endfor %}       
-    </ul> -->
-
-
-    <!-- <ul class="post-list">
-        {% for post in site.categories.page.category %}
-        <li>
-            <a href="">
-                <span class="post-title">
-                    {{post.title | escape }}
-                </span>
-                <br/>
-                <span class="post-meta">
-                    {{post.date | date: "%Y-%b-%-d"}} | {{post.categories | array_to_sentence_string}}
-                </span>
-            </a>
+            <span class="post-meta">
+                {{post.date | date: "%Y-%b-%-d"}} | {{post.categories | array_to_sentence_string}}
+            </span>
+            {{ post.excerpt }}
         </li>
         {% endfor %}
-    </ul> -->
+    </ul>
+    {% else %}
+    <ul class="post-list">
+        {% for post in site.posts %}
+        {% if post.categories == empty %}
+        <li>
+            <a href="{{ post.url }}">
+                <h2>{{post.title | escape }}</h2>
+            </a>
+            <span class="post-meta">
+                {{post.date | date: "%Y-%b-%-d"}}
+            </span>
+            {{ post.excerpt }}
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    {% endif %}
 
 </div>

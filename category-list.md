@@ -9,7 +9,7 @@ Access all of the articles for a particular category by selecting an item from t
 <ul>
     {% for cat in site.data.categories %}
         <li>
-           <h4><a href="/categories/{{ cat.category | slugify }}">{{ cat.category | replace:'-', ' ' }} ({{cat.count}})</a></h4>
+           <h4><a href="/categories/{{ cat.category | slugify }}">{{ cat.category | replace:'-', ' ' }} ({{cat.count}} Posts)</a></h4>
         </li>
     {% endfor %}
 </ul>
