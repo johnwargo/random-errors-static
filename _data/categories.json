@@ -1,10 +1,38 @@
 [
   {
+    "category": "Adafruit",
+    "count": 1
+  },
+  {
     "category": "Android",
     "count": 2
   },
   {
+    "category": "App Script",
+    "count": 1
+  },
+  {
+    "category": "Arduino",
+    "count": 1
+  },
+  {
+    "category": "CORS",
+    "count": 1
+  },
+  {
+    "category": "Capacitor",
+    "count": 1
+  },
+  {
+    "category": "ESP32",
+    "count": 1
+  },
+  {
     "category": "Electron",
+    "count": 3
+  },
+  {
+    "category": "Feather",
     "count": 1
   },
   {
@@ -12,15 +40,27 @@
     "count": 1
   },
   {
-    "category": "Ionic",
-    "count": 5
+    "category": "Hosting",
+    "count": 2
   },
   {
-    "category": "Not Categorized",
-    "count": 8
+    "category": "Ionic",
+    "count": 7
+  },
+  {
+    "category": "JavaScript",
+    "count": 1
   },
   {
     "category": "PWA",
+    "count": 1
+  },
+  {
+    "category": "Wi-Fi",
+    "count": 1
+  },
+  {
+    "category": "Wordpress",
     "count": 1
   }
 ]

@@ -1,7 +1,8 @@
 ---
   layout: post
   title: Google Domains Subdomain Configuration
-  tags: Hosting
+  tags:
+  categories: Hosting
   comments: true
 ---
 

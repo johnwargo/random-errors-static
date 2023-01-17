@@ -1,7 +1,8 @@
 ---
   layout: post
   title: Ionic "Pipe not found"
-  tags: Ionic
+  tags:
+  categories: Ionic
   comments: true
 ---
 

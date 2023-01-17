@@ -3,6 +3,7 @@ layout: post
 title:  "Install PWA from Folder"
 description: How to build a webmanifest file for a PWA served from a folder
 date:   2019-06-29 08:40:00 -0400
+tags: 
 categories: PWA
 comments: true
 ---

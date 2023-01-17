@@ -1,7 +1,9 @@
 ---
   layout: post
   title: Ionic Capacitor Electron Window Configuration
-  tags: Ionic, Electron, Capacitor
+  # tags: Ionic, Electron, Capacitor
+  tags: 
+  categories: [Ionic, Electron, Capacitor]
   comments: true
 ---
 

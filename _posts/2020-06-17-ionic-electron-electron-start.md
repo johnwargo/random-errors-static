@@ -2,7 +2,7 @@
   layout: post
   title: Ionic Electron Command Failed npm run electron:start 
   tags: 
-  categories: Ionic, Electron
+  categories: [Ionic, Electron]
   comments: true
 ---
 

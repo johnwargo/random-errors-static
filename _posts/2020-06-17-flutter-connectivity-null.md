@@ -1,8 +1,8 @@
 ---
   layout: post
   title: Flutter Connectivity Android Null Results
-  tags: Wi-Fi, Flutter, Android
-  categories: Flutter, Android
+  tags: 
+  categories: [Wi-Fi, Flutter, Android]
   comments: true
 ---
 

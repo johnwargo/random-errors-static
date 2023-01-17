@@ -9,7 +9,7 @@ layout: default
     <h1>{{page.category}} Posts</h1>
 
     <!-- Are we processing the uncategorized ones? -->
-    {% if page.category != "Not Categorized" %}
+    {% if page.category != "Uncategorized" %}
     <ul class="post-list">
         {% for post in site.categories[page.category] %}
         <li>

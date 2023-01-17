@@ -1,7 +1,8 @@
 ---
   layout: post
   title: App Script Date Picker UTC
-  tags: App Script, JavaScript
+  tags: 
+  categories: [App Script, JavaScript]
   comments: true
 ---
 
