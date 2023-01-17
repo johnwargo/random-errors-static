@@ -1,7 +1,8 @@
 ---
   layout: post
   title: Google Domains "Record Already in Use"
-  tags: Hosting
+  tags: 
+  categories: Hosting
   comments: true
 ---
 

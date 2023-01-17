@@ -10,8 +10,18 @@ The static web site for [randomerrors.dev](https://randomerrors.dev).
 + Hosting: [Netlify](https://app.netlify.com/teams/john-qtz-ltk/dns/randomerrors.dev)
 + Backdoor Access: [https://randomerrors.netlify.com/](https://randomerrors.netlify.com/)
 
+## Task List
+
+[] Categories page has different header style than Home
+[] Breadcrumbs on category navigation
+[] Pagination on category pages
+
 ## Google Analytics
 
 * Random Errors-GA4
 * Property ID: 311016183
 * Measurement ID: G-ZWB41V4FM5
+
+## Notes
+
+Generating categories: https://www.feval.ca/posts/jekyll-categories/

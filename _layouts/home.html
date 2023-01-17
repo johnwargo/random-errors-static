@@ -36,15 +36,18 @@ title: Random Development Errors
   <ul class="post-list">
     {%- for post in paginator.posts -%}
     <li>
-      <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <h3>{{post.title | escape }}</h3>
+      </a>
+      <span class="post-meta">
+        {% if post.categories == empty %}
+        {{post.date | date: "%Y-%b-%-d"}} | Uncategorized
+        {% else %}
+        {{post.date | date: "%Y-%b-%-d"}} | {{post.categories | array_to_sentence_string}}
+        {% endif %}
+      </span>
       {{ post.excerpt }}
-    </li>
+    </li>   
     {%- endfor -%}
   </ul>
 

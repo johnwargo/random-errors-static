@@ -2,7 +2,8 @@
 layout: post
 title:  "Installation failed with message Invalid File"
 description: Describes an error I encountered when installing an Ionic 4 application on an Android device.
-date:   2019-06-29 08:40:00 -0400
+date: 2019-06-29 08:40:00 -0400
+tags: 
 categories: Ionic
 comments: true
 ---

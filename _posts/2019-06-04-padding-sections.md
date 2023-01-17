@@ -2,7 +2,8 @@
 layout: post
 title:  "Too many padding sections on bottom border"
 description: Describes an error I encountered when editing 9-patch files in Andrid Studio.
-date:   2019-06-04 08:40:00 -0400
+date: 2019-06-04 08:40:00 -0400
+tags: 
 categories: Android
 comments: true
 ---

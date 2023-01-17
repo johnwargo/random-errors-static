@@ -1,7 +1,8 @@
 ---
   layout: post
   title: Adafruit Feather Huzzah32 with the ePaper FeatherWing
-  tags: Adafruit, Feather, Arduino
+  tags:
+  categories: [Adafruit, Feather, Arduino]
   comments: true
 ---
 
