@@ -6,6 +6,7 @@ title: Random Development Errors
 <div class="home">
   {%- if page.title -%}
   <h2 class="page-heading">{{ page.title }}</h2>
+    
   {%- endif -%}
 
   <p>This site is a place to document the solutions for the random problems and errors I
@@ -31,8 +32,9 @@ title: Random Development Errors
   </div>
   <br />
 
-  {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  {%- if site.posts.size > 0 -%}  
+  <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+  <h2 class="post-title">{{ page.list_title | default: "Posts" }}</h2>
   <ul class="post-list">
     {%- for post in paginator.posts -%}
     <li>
