@@ -27,6 +27,8 @@ description:
 #   and posted the solution here for others to use. Enjoy!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://randomerrors.dev" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:categories/:title:output_ext
+# permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Google Analytics
 # google_analytics: UA-8870627-33
