@@ -3,12 +3,10 @@ layout: default
 ---
 
 <div class="home">
-
     {{content}}
 
-    <h1>{{page.category}} Posts</h1>
+    <h2>{{page.category}} Posts</h2>
 
-    <!-- Are we processing the uncategorized ones? -->
     {% if page.category != "Uncategorized" %}
     <ul class="post-list">
         {% for post in site.categories[page.category] %}
@@ -20,6 +18,9 @@ layout: default
                 {{post.date | date: "%Y-%b-%-d"}} | {{post.categories | array_to_sentence_string}}
             </span>
             {{ post.excerpt }}
+            {% if post.excerpt != post.content %}
+            <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+            {% endif %}
         </li>
         {% endfor %}
     </ul>
@@ -35,6 +36,9 @@ layout: default
                 {{post.date | date: "%Y-%b-%-d"}}
             </span>
             {{ post.excerpt }}
+            {% if post.excerpt != post.content %}
+            <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+            {% endif %}
         </li>
         {% endif %}
         {% endfor %}
