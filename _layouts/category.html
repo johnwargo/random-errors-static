@@ -5,6 +5,8 @@ layout: default
 <div class="home">
     {{content}}
 
+    {% include breadcrumbs.html %}
+    <br />
     <h2>{{page.category}} Posts</h2>
 
     {% if page.category != "Uncategorized" %}

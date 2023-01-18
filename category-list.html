@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Categories
-permalink: /category-list/
+permalink: /categories/
 ---
 
 Access all of the articles for a particular category by selecting an item from the list below:
@@ -11,10 +11,10 @@ Access all of the articles for a particular category by selecting an item from t
     <li>
         {% if cat.count >1 %}
         <a href="/categories/{{ cat.category | slugify }}">{{ cat.category | replace:'-', ' ' }} ({{cat.count}}
-                Posts)</a>
+            Posts)</a>
         {% else %}
         <a href="/categories/{{ cat.category | slugify }}">{{ cat.category | replace:'-', ' ' }} ({{cat.count}}
-                Post)</a>
+            Post)</a>
         {% endif %}
     </li>
     {% endfor %}
