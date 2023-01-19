@@ -4,10 +4,24 @@ comments: true
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+  {% include breadcrumbs.html %}
+  <br />
+
   <header class="post-header">
     <!-- <h2 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h2> -->
     <h2 itemprop="name headline">{{ page.title | escape }}</h2>
     <p class="post-meta">
+      <p>      
+        {% if page.tags.size > 0 %}
+        Tag{% if page.tags.size > 1 %}s{% endif %}:
+        {{ page.tags | sort | join: ", " }}
+        {% endif %}      
+        {% if page.categories.size > 0 %}
+        {% if page.tags.size > 0 %} | {% endif %}
+        Categor{% if page.categories.size > 1 %}ies{% else %}y{% endif %}:
+        {{ page.categories | sort | join: ", " }}
+        {% endif %}
+      </p>    
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
@@ -16,7 +30,8 @@ comments: true
       • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
           itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
-    </p>
+
+    </p>    
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

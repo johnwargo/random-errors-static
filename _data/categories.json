@@ -1,66 +1,34 @@
 [
   {
-    "category": "Adafruit",
+    "category": "Android Development",
     "count": 1
   },
   {
-    "category": "Android",
+    "category": "CMS",
+    "count": 1
+  },
+  {
+    "category": "Flutter Development",
+    "count": 1
+  },
+  {
+    "category": "Google App Script",
+    "count": 1
+  },
+  {
+    "category": "IoT",
     "count": 2
   },
   {
-    "category": "App Script",
-    "count": 1
-  },
-  {
-    "category": "Arduino",
-    "count": 1
-  },
-  {
-    "category": "CORS",
-    "count": 1
-  },
-  {
-    "category": "Capacitor",
-    "count": 1
-  },
-  {
-    "category": "ESP32",
-    "count": 1
-  },
-  {
-    "category": "Electron",
-    "count": 3
-  },
-  {
-    "category": "Feather",
-    "count": 1
-  },
-  {
-    "category": "Flutter",
-    "count": 1
-  },
-  {
-    "category": "Hosting",
-    "count": 2
-  },
-  {
-    "category": "Ionic",
+    "category": "Ionic Framework",
     "count": 7
   },
   {
-    "category": "JavaScript",
+    "category": "Web Development",
     "count": 1
   },
   {
-    "category": "PWA",
-    "count": 1
-  },
-  {
-    "category": "Wi-Fi",
-    "count": 1
-  },
-  {
-    "category": "Wordpress",
-    "count": 1
+    "category": "Web Hosting",
+    "count": 2
   }
 ]

@@ -1,8 +1,8 @@
 ---
   layout: post
   title: WordPress Category Menu Page Not Found
-  tags:
-  categories: Wordpress
+  tags: [Wordpress]
+  categories: [CMS]
   comments: true
 ---
 

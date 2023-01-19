@@ -1,9 +1,8 @@
 ---
   layout: post
   title: ESP32 Electron and CORS errors
-  # tags: Electron, ESP32, CORS
-  tags: 
-  categories: [Electron, ESP32, CORS]
+  tags: [Electron, ESP32, CORS, Ionic]
+  categories: [IoT]
   comments: true
 ---
 

@@ -16,7 +16,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Random Development Errors
 author: John M. Wargo
-# email: john@randomerrors.dev
+email: john@johnwargo.com
 twitter_username: johnwargo
 github_username:  johnwargo
 aboutme_username: johnwargo

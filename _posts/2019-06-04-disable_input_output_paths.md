@@ -1,8 +1,8 @@
 ---
   layout: post
-  title: disable_input_output_paths
+  title: Ionic `disable_input_output_paths`
   tags: 
-  categories: Ionic
+  categories: [Ionic Framework]
   comments: true
 ---
 

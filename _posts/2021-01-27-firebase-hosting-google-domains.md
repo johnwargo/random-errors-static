@@ -1,8 +1,8 @@
 ---
   layout: post
   title: Google Domains "Record Already in Use"
-  tags: 
-  categories: Hosting
+  tags: [Firebase, Google Domains]
+  categories: [Web Hosting]
   comments: true
 ---
 

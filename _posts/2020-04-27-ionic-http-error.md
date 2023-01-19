@@ -2,7 +2,7 @@
   layout: post
   title: Ionic HTTP Failure Unknown Error
   tags: 
-  categories: Ionic
+  categories: [Ionic Framework]
   comments: true
 ---
 

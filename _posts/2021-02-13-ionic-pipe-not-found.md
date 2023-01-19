@@ -2,7 +2,7 @@
   layout: post
   title: Ionic "Pipe not found"
   tags:
-  categories: Ionic
+  categories: [Ionic Framework]
   comments: true
 ---
 

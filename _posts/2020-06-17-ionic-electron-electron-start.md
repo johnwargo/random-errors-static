@@ -1,8 +1,8 @@
 ---
   layout: post
   title: Ionic Electron Command Failed npm run electron:start 
-  tags: 
-  categories: [Ionic, Electron]
+  tags: [Electron, Capacitor]
+  categories: [Ionic Framework]
   comments: true
 ---
 

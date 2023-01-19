@@ -1,8 +1,8 @@
 ---
   layout: post
   title: Unexpected token '='
-  tags: 
-  categories: Ionic
+  tags: [iOS, macOS]
+  categories: [Ionic Framework]
   comments: true
 ---
 

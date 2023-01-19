@@ -2,7 +2,7 @@
   layout: post
   title: App Script Date Picker UTC
   tags: 
-  categories: [App Script, JavaScript]
+  categories: [Google App Script]
   comments: true
 ---
 
