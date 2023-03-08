@@ -10,10 +10,13 @@ The static web site for [randomerrors.dev](https://randomerrors.dev).
 + Hosting: [Netlify](https://app.netlify.com/teams/john-qtz-ltk/dns/randomerrors.dev)
 + Backdoor Access: [https://randomerrors.netlify.com/](https://randomerrors.netlify.com/)
 
-## Task List
+Use the https://github.com/johnwargo/jekyll-category-pages node module to generate the categories data file used by this site. 
 
-* Breadcrumbs on category navigation
-* Pagination on category pages
+## Tasks
+
+[ ] Finish documentation for the jekyll-category-pages module (https://github.com/johnwargo/jekyll-category-pages)
+[ ] Publish the jekyll-category-pages node module
+[ ] Write blog post describing how you use it for this site. 
 
 ## Google Analytics
 
@@ -24,3 +27,4 @@ The static web site for [randomerrors.dev](https://randomerrors.dev).
 ## Notes
 
 Generating categories: https://www.feval.ca/posts/jekyll-categories/
+
