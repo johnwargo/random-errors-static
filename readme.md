@@ -14,9 +14,9 @@ Use the https://github.com/johnwargo/jekyll-category-pages node module to genera
 
 ## Tasks
 
-[ ] Finish documentation for the jekyll-category-pages module (https://github.com/johnwargo/jekyll-category-pages)
-[ ] Publish the jekyll-category-pages node module
-[ ] Write blog post describing how you use it for this site. 
+* [ ] Finish documentation for the jekyll-category-pages module (https://github.com/johnwargo/jekyll-category-pages)
+* [ ] Publish the jekyll-category-pages node module
+* [ ] Write blog post describing how you use it for this site. 
 
 ## Google Analytics
 
